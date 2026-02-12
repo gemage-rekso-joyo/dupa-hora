@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <!-- ============================================
+         DUPA HORA - Gemage Rekso Joyo
+         Website Produk Dupa Premium
+         Versi: Foto Produk Real
+         ============================================ -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- SEO Meta Tags -->
+    <title>Dupa Hora — Dupa Premium Berkualitas | Gemage Rekso Joyo</title>
+    <meta name="description" content="Dupa Hora dari Gemage Rekso Joyo — dupa premium dengan beragam aroma menenangkan dan tahan lama. Tersedia ukuran kecil dan besar. Pesan sekarang via WhatsApp.">
+    <meta name="keywords" content="dupa, dupa hora, dupa premium, dupa wangi, incense, gemage rekso joyo, dupa sidoarjo, dupa melati, dupa cendana, dupa gaharu">
+    <meta name="author" content="Gemage Rekso Joyo">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="Dupa Hora — Dupa Premium Berkualitas">
+    <meta property="og:description" content="Dupa premium dengan beragam aroma menenangkan dan tahan lama dari Gemage Rekso Joyo.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://gemagereksojoyo.github.io">
+    <meta property="og:image" content="images/og-image.jpg">
+    <meta property="og:locale" content="id_ID">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Dupa Hora — Dupa Premium Berkualitas">
+    <meta name="twitter:description" content="Dupa premium dengan beragam aroma menenangkan dan tahan lama.">
+    <meta name="twitter:image" content="images/og-image.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Structured Data / JSON-LD Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Gemage Rekso Joyo",
+        "description": "Produsen dupa premium berkualitas tinggi dengan beragam aroma.",
+        "url": "https://gemagereksojoyo.github.io",
+        "telephone": "+6282213275405",
+        "image": "images/og-image.jpg",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Jl. Nanas VI/574 A, Pondok Candra",
+            "addressLocality": "Sidoarjo",
+            "addressRegion": "Jawa Timur",
+            "addressCountry": "ID"
+        },
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Dupa Hora",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Product",
+                        "name": "Dupa Hora Ukuran Kecil",
+                        "description": "Dupa premium ukuran kecil dengan ketahanan ±1 jam.",
+                        "image": "images/product-small.jpg",
+                        "brand": {
+                            "@type": "Brand",
+                            "name": "Dupa Hora"
+                        },
+                        "offers": {
+                            "@type": "Offer",
+                            "price": "7000",
+                            "priceCurrency": "IDR",
+                            "availability": "https://schema.org/InStock"
+                        }
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Product",
+                        "name": "Dupa Hora Ukuran Besar",
+                        "description": "Dupa premium ukuran besar dengan ketahanan ±1 jam 50 menit.",
+                        "image": "images/product-large.jpg",
+                        "brand": {
+                            "@type": "Brand",
+                            "name": "Dupa Hora"
+                        },
+                        "offers": {
+                            "@type": "Offer",
+                            "price": "10000",
+                            "priceCurrency": "IDR",
+                            "availability": "https://schema.org/InStock"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+    </script>
+</head>
+
+<body>
+
+    <!-- ==========================================
+         NAVBAR / NAVIGATION
+         ========================================== -->
+    <header class="navbar" id="navbar">
+        <div class="container navbar__container">
+            <!-- Logo / Brand -->
+            <a href="#beranda" class="navbar__brand">
+                <img src="images/logo.png" alt="Logo Dupa Hora" class="navbar__logo-img" width="40" height="40">
+                <div class="navbar__brand-text">
+                    <span class="navbar__name">Dupa Hora</span>
+                    <span class="navbar__company">Gemage Rekso Joyo</span>
+                </div>
+            </a>
+
+            <!-- Hamburger Menu (Mobile) -->
+            <button class="navbar__toggle" id="navToggle" aria-label="Toggle navigasi" aria-expanded="false">
+                <span class="navbar__toggle-bar"></span>
+                <span class="navbar__toggle-bar"></span>
+                <span class="navbar__toggle-bar"></span>
+            </button>
+
+            <!-- Navigation Links -->
+            <nav class="navbar__menu" id="navMenu" role="navigation" aria-label="Menu utama">
+                <ul class="navbar__list">
+                    <li class="navbar__item">
+                        <a href="#beranda" class="navbar__link active">Beranda</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#produk" class="navbar__link">Produk</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#aroma" class="navbar__link">Aroma</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#tentang" class="navbar__link">Tentang</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#kontak" class="navbar__link">Kontak</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- ==========================================
+         HERO SECTION
+         ========================================== -->
+    <section class="hero" id="beranda">
+        <!-- Background Image via CSS -->
+        <div class="hero__bg">
+            <img src="images/hero-bg.jpg" alt="" class="hero__bg-img" loading="eager">
+        </div>
+
+        <!-- Decorative Smoke -->
+        <div class="hero__smoke">
+            <div class="smoke smoke--1"></div>
+            <div class="smoke smoke--2"></div>
+            <div class="smoke smoke--3"></div>
+        </div>
+
+        <div class="hero__overlay"></div>
+
+        <div class="container hero__container">
+            <div class="hero__content" data-animate="fade-up">
+                <span class="hero__badge">✦ Premium Quality Incense ✦</span>
+                <h1 class="hero__title">
+                    Dupa Premium dengan<br>
+                    <span class="hero__title--highlight">Aroma Menenangkan</span><br>
+                    & Tahan Lama
+                </h1>
+                <p class="hero__subtitle">
+                    Hadirkan ketenangan dan kekhusyukan dalam setiap momen ibadah 
+                    Anda bersama <strong>Dupa Hora</strong> — dibuat dari bahan pilihan 
+                    dengan cita aroma yang khas dan memikat.
+                </p>
+                <div class="hero__buttons">
+                    <a href="#produk" class="btn btn--primary">
+                        <span class="btn__icon">✦</span>
+                        Lihat Produk
+                    </a>
+                    <a href="https://wa.me/6282213275405?text=Halo,%20saya%20tertarik%20dengan%20produk%20Dupa%20Hora.%20Bisa%20info%20lebih%20lanjut?" 
+                       class="btn btn--secondary" target="_blank" rel="noopener noreferrer">
+                        <span class="btn__icon">💬</span>
+                        Pesan Sekarang
+                    </a>
+                </div>
+            </div>
+
+            <!-- Hero Product Image -->
+            <div class="hero__visual" data-animate="fade-left">
+                <div class="hero__product-showcase">
+                    <img src="images/hero-product.png" 
+                         alt="Dupa Hora Premium" 
+                         class="hero__product-img"
+                         width="400" 
+                         height="500"
+                         loading="eager">
+                    <div class="hero__product-glow"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="hero__scroll">
+            <span>Scroll ke bawah</span>
+            <div class="hero__scroll-arrow"></div>
+        </div>
+    </section>
+
+
+    <!-- ==========================================
+         SECTION: PRODUK
+         ========================================== -->
+    <section class="section section--products" id="produk">
+        <div class="container">
+            <!-- Section Header -->
+            <div class="section__header" data-animate="fade-up">
+                <span class="section__badge">Produk Kami</span>
+                <h2 class="section__title">Pilihan Varian <span class="text-gold">Dupa Hora</span></h2>
+                <p class="section__subtitle">
+                    Tersedia dalam dua ukuran yang dirancang untuk memenuhi kebutuhan Anda, 
+                    dengan kualitas aroma yang konsisten dan ketahanan lama.
+                </p>
+                <div class="section__divider">
+                    <span class="section__divider-icon">🪔</span>
+                </div>
+            </div>
+
+            <!-- Product Cards -->
+            <div class="products__grid">
+
+                <!-- ================================
+                     Card: Ukuran Kecil
+                     GAMBAR: images/product-small.jpg
+                     ================================ -->
+                <article class="product-card" data-animate="fade-right">
+                    <div class="product-card__ribbon">Populer</div>
+                    <div class="product-card__image">
+                        <img src="images/product-small.jpg" 
+                             alt="Dupa Hora Ukuran Kecil - Dupa premium dengan ketahanan ±1 jam" 
+                             class="product-card__img"
+                             width="400" 
+                             height="400"
+                             loading="lazy">
+                        <div class="product-card__image-overlay">
+                            <span class="product-card__size-label">Ukuran Kecil</span>
+                        </div>
+                    </div>
+                    <div class="product-card__body">
+                        <h3 class="product-card__name">Dupa Hora</h3>
+                        <span class="product-card__variant">Ukuran Kecil</span>
+                        <div class="product-card__details">
+                            <div class="product-card__detail">
+                                <span class="product-card__detail-icon">⏱️</span>
+                                <div>
+                                    <span class="product-card__detail-label">Ketahanan</span>
+                                    <span class="product-card__detail-value">± 1 Jam</span>
+                                </div>
+                            </div>
+                            <div class="product-card__detail">
+                                <span class="product-card__detail-icon">🌸</span>
+                                <div>
+                                    <span class="product-card__detail-label">Aroma</span>
+                                    <span class="product-card__detail-value">16+ Pilihan</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-card__price">
+                            <span class="product-card__currency">Rp</span>
+                            <span class="product-card__amount">7.000</span>
+                            <span class="product-card__per">/ bungkus</span>
+                        </div>
+                        <a href="https://wa.me/6282213275405?text=Halo,%20saya%20ingin%20memesan%20Dupa%20Hora%20Ukuran%20Kecil.%20Bisa%20info%20lebih%20lanjut?" 
+                           class="btn btn--primary btn--full" target="_blank" rel="noopener noreferrer">
+                            <span class="btn__icon">💬</span>
+                            Pesan via WhatsApp
+                        </a>
+                    </div>
+                </article>
+
+                <!-- ================================
+                     Card: Ukuran Besar
+                     GAMBAR: images/product-large.jpg
+                     ================================ -->
+                <article class="product-card product-card--featured" data-animate="fade-left">
+                    <div class="product-card__ribbon product-card__ribbon--gold">Best Value</div>
+                    <div class="product-card__image">
+                        <img src="images/product-large.jpg" 
+                             alt="Dupa Hora Ukuran Besar - Dupa premium dengan ketahanan ±1 jam 50 menit" 
+                             class="product-card__img"
+                             width="400" 
+                             height="400"
+                             loading="lazy">
+                        <div class="product-card__image-overlay">
+                            <span class="product-card__size-label">Ukuran Besar</span>
+                        </div>
+                    </div>
+                    <div class="product-card__body">
+                        <h3 class="product-card__name">Dupa Hora</h3>
+                        <span class="product-card__variant">Ukuran Besar</span>
+                        <div class="product-card__details">
+                            <div class="product-card__detail">
+                                <span class="product-card__detail-icon">⏱️</span>
+                                <div>
+                                    <span class="product-card__detail-label">Ketahanan</span>
+                                    <span class="product-card__detail-value">± 1 Jam 50 Menit</span>
+                                </div>
+                            </div>
+                            <div class="product-card__detail">
+                                <span class="product-card__detail-icon">🌸</span>
+                                <div>
+                                    <span class="product-card__detail-label">Aroma</span>
+                                    <span class="product-card__detail-value">16+ Pilihan</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-card__price">
+                            <span class="product-card__currency">Rp</span>
+                            <span class="product-card__amount">10.000</span>
+                            <span class="product-card__per">/ bungkus</span>
+                        </div>
+                        <a href="https://wa.me/6282213275405?text=Halo,%20saya%20ingin%20memesan%20Dupa%20Hora%20Ukuran%20Besar.%20Bisa%20info%20lebih%20lanjut?" 
+                           class="btn btn--gold btn--full" target="_blank" rel="noopener noreferrer">
+                            <span class="btn__icon">💬</span>
+                            Pesan via WhatsApp
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ==========================================
+         SECTION: AROMA
+         ========================================== -->
+    <section class="section section--aroma" id="aroma">
+        <div class="container">
+            <!-- Section Header -->
+            <div class="section__header" data-animate="fade-up">
+                <span class="section__badge">Koleksi Aroma</span>
+                <h2 class="section__title">Beragam <span class="text-gold">Aroma Pilihan</span></h2>
+                <p class="section__subtitle">
+                    Temukan aroma favorit Anda dari koleksi lengkap kami. 
+                    Setiap aroma dipilih dengan cermat untuk menghadirkan pengalaman terbaik.
+                </p>
+                <div class="section__divider">
+                    <span class="section__divider-icon">🌸</span>
+                </div>
+            </div>
+
+            <!-- Aroma Grid -->
+            <div class="aroma__grid" data-animate="fade-up">
+                <div class="aroma__item">
+                    <span class="aroma__emoji">🌼</span>
+                    <span class="aroma__name">Melati</span>
+                </div>
+                <div class="aroma__item">
+                    <span class="aroma__emoji">🌺</span>
+                    <span class="aroma__name">Cempaka</span>
+                </div>
+                <div class="aroma__item">
+                    <span class="aroma__emoji">🌹</span>
+                    <span class="aroma__name">Mawar</span>
+                </div>
+                <div class="aroma__item">
+                    <span class="aroma__emoji">🌻</span>
+                    <span class="aroma__name">Kenanga</span>
+                </div>
+                <div class="aroma__item">
+                    <span class="aroma__emoji">🌷</span>
+                    <span class="aroma__name">Sedap Malam</span>
+                </div>
+                <div class="aroma__item">
+                    <span class="aroma__emoji">🪵</span>
+                    <span class="aroma__name">Cendana</span>
+                </div>
+                <div class="aroma__item">
+                    <span class="aroma__emoji">💐</span>
+                    <span class="aroma__name">Seribu Bunga</span>
+                </div>
+                <div class="aroma__item">
+                    <span class="aroma__emoji">🌸</span>
+                    <span class="aroma__name">2000 Bunga</span>
+                </div>
+                <div class="aroma__item">
+                    <span class="aroma__emoji">🤍</span>
+                    <span class="aroma__name">Misik Putih</span>
+                </div>
+                <div class="aroma__item">
+                    <span class="aroma__emoji">🖤</span>
+                    <span class="aroma__name">Misik Hitam</span>
+                </div>
+                <div class="aroma__item">
+                    <span class="aroma__emoji">✨</span>
+                    <span class="aroma__name">Malaikat Subuh</span>
+                </div>
+                <div class="aroma__item">
+                    <span class="aroma__emoji">🌙</span>
+                    <span class="aroma__name">Sabaya</span>
+                </div>
+                <div class="aroma__item">
+                    <span class="aroma__emoji">🕋</span>
+                    <span class="aroma__name">Hajar Aswad</span>
+                </div>
+                <div class="aroma__item">
+                    <span class="aroma__emoji">🦌</span>
+                    <span class="aroma__name">Kasturi Kijang</span>
+                </div>
+                <div class="aroma__item">
+                    <span class="aroma__emoji">🌿</span>
+                    <span class="aroma__name">Japaron</span>
+                </div>
+                <div class="aroma__item">
+                    <span class="aroma__emoji">🪵</span>
+                    <span class="aroma__name">Gaharu</span>
+                </div>
+            </div>
+
+            <!-- Custom Aroma Note -->
+            <div class="aroma__note" data-animate="fade-up">
+                <div class="aroma__note-icon">💡</div>
+                <p class="aroma__note-text">
+                    <strong>Ingin aroma khusus?</strong><br>
+                    Jika menginginkan aroma di luar daftar yang tersedia, silakan 
+                    <a href="https://wa.me/6282213275405?text=Halo,%20saya%20ingin%20menanyakan%20ketersediaan%20aroma%20khusus%20untuk%20Dupa%20Hora." 
+                       target="_blank" rel="noopener noreferrer">hubungi kami</a>.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ==========================================
+         SECTION: TENTANG KAMI
+         ========================================== -->
+    <section class="section section--about" id="tentang">
+        <div class="container">
+            <div class="about__grid">
+                <!-- Visual Side: Foto Tentang -->
+                <div class="about__visual" data-animate="fade-right">
+                    <div class="about__image-wrapper">
+                        <img src="images/about.jpg" 
+                             alt="Proses pembuatan Dupa Hora oleh Gemage Rekso Joyo" 
+                             class="about__image"
+                             width="500" 
+                             height="600"
+                             loading="lazy">
+                        <div class="about__image-border"></div>
+                        <div class="about__experience">
+                            <span class="about__experience-icon">✦</span>
+                            <span class="about__experience-text">Kualitas<br>Premium</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Content Side -->
+                <div class="about__content" data-animate="fade-left">
+                    <span class="section__badge">Tentang Kami</span>
+                    <h2 class="section__title section__title--left">
+                        Mengenal <span class="text-gold">Gemage Rekso Joyo</span>
+                    </h2>
+                    <div class="about__text">
+                        <p>
+                            <strong>Gemage Rekso Joyo</strong> adalah produsen dupa berkualitas tinggi 
+                            yang berkomitmen menghadirkan produk terbaik untuk menemani momen spiritual 
+                            dan relaksasi Anda. Dengan pengalaman dan dedikasi dalam industri dupa, 
+                            kami memahami pentingnya aroma yang autentik dan ketahanan yang konsisten.
+                        </p>
+                        <p>
+                            Setiap batang <strong>Dupa Hora</strong> dibuat menggunakan bahan-bahan pilihan 
+                            yang diracik dengan cermat untuk menghasilkan aroma yang khas, lembut, dan 
+                            menenangkan. Kami percaya bahwa dupa yang baik dapat menciptakan suasana 
+                            kedamaian dan kekhusyukan yang sempurna.
+                        </p>
+                        <p>
+                            Berlokasi di Sidoarjo, Jawa Timur, kami melayani pemesanan dari seluruh 
+                            Indonesia dengan pelayanan yang ramah dan pengiriman yang terpercaya.
+                        </p>
+                    </div>
+
+                    <!-- Features -->
+                    <div class="about__features">
+                        <div class="about__feature">
+                            <span class="about__feature-icon">🌿</span>
+                            <div>
+                                <strong>Bahan Alami Pilihan</strong>
+                                <span>Diformulasi dari bahan berkualitas</span>
+                            </div>
+                        </div>
+                        <div class="about__feature">
+                            <span class="about__feature-icon">⏱️</span>
+                            <div>
+                                <strong>Tahan Lama</strong>
+                                <span>Ketahanan aroma hingga hampir 2 jam</span>
+                            </div>
+                        </div>
+                        <div class="about__feature">
+                            <span class="about__feature-icon">🌸</span>
+                            <div>
+                                <strong>Beragam Aroma</strong>
+                                <span>16+ pilihan aroma premium</span>
+                            </div>
+                        </div>
+                        <div class="about__feature">
+                            <span class="about__feature-icon">📦</span>
+                            <div>
+                                <strong>Pengiriman Seluruh Indonesia</strong>
+                                <span>Layanan cepat dan terpercaya</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ==========================================
+         SECTION: KONTAK
+         ========================================== -->
+    <section class="section section--contact" id="kontak">
+        <div class="container">
+            <!-- Section Header -->
+            <div class="section__header" data-animate="fade-up">
+                <span class="section__badge">Hubungi Kami</span>
+                <h2 class="section__title">Siap <span class="text-gold">Memesan?</span></h2>
+                <p class="section__subtitle">
+                    Hubungi kami melalui WhatsApp atau kunjungi langsung alamat kami. 
+                    Kami siap melayani pesanan Anda dengan sepenuh hati.
+                </p>
+                <div class="section__divider">
+                    <span class="section__divider-icon">📞</span>
+                </div>
+            </div>
+
+            <div class="contact__grid">
+                <!-- Contact Info Cards -->
+                <div class="contact__info" data-animate="fade-right">
+                    <!-- WhatsApp Card -->
+                    <div class="contact__card">
+                        <div class="contact__card-icon">💬</div>
+                        <div class="contact__card-content">
+                            <h3 class="contact__card-title">WhatsApp</h3>
+                            <p class="contact__card-text">
+                                <a href="https://wa.me/6282213275405" target="_blank" rel="noopener noreferrer">
+                                    0822-1327-5405
+                                </a>
+                            </p>
+                            <span class="contact__card-note">Klik untuk chat langsung</span>
+                        </div>
+                    </div>
+
+                    <!-- Address Card -->
+                    <div class="contact__card">
+                        <div class="contact__card-icon">📍</div>
+                        <div class="contact__card-content">
+                            <h3 class="contact__card-title">Alamat</h3>
+                            <p class="contact__card-text">
+                                Jl. Nanas VI/574 A,<br>
+                                Pondok Candra, Sidoarjo,<br>
+                                Jawa Timur
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- CTA Button -->
+                    <a href="https://wa.me/6282213275405?text=Halo,%20saya%20ingin%20memesan%20Dupa%20Hora.%20Bisa%20info%20lebih%20lanjut?" 
+                       class="btn btn--primary btn--full btn--large" target="_blank" rel="noopener noreferrer">
+                        <span class="btn__icon">💬</span>
+                        Chat WhatsApp Sekarang
+                    </a>
+                </div>
+
+                <!-- Google Maps -->
+                <div class="contact__map" data-animate="fade-left">
+                    <div class="contact__map-wrapper">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.3!2d112.78!3d-7.35!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zN8KwMjEnMDAuMCJTIDExMsKwNDYnNDguMCJF!5e0!3m2!1sid!2sid!4v1700000000000!5m2!1sid!2sid"
+                            width="100%" 
+                            height="100%" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="Lokasi Gemage Rekso Joyo - Pondok Candra, Sidoarjo">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ==========================================
+         FOOTER
+         ========================================== -->
+    <footer class="footer">
+        <div class="container">
+            <!-- Footer Top -->
+            <div class="footer__top">
+                <div class="footer__brand">
+                    <a href="#beranda" class="footer__logo">
+                        <img src="images/logo.png" alt="Logo Dupa Hora" class="footer__logo-img" width="36" height="36">
+                        <div>
+                            <span class="footer__logo-name">Dupa Hora</span>
+                            <span class="footer__logo-company">Gemage Rekso Joyo</span>
+                        </div>
+                    </a>
+                    <p class="footer__description">
+                        Dupa premium berkualitas tinggi dengan beragam aroma menenangkan 
+                        untuk menemani momen spiritual dan relaksasi Anda.
+                    </p>
+                </div>
+
+                <div class="footer__links">
+                    <h4 class="footer__heading">Menu</h4>
+                    <ul>
+                        <li><a href="#beranda">Beranda</a></li>
+                        <li><a href="#produk">Produk</a></li>
+                        <li><a href="#aroma">Aroma</a></li>
+                        <li><a href="#tentang">Tentang</a></li>
+                        <li><a href="#kontak">Kontak</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__links">
+                    <h4 class="footer__heading">Kontak</h4>
+                    <ul>
+                        <li>
+                            <a href="https://wa.me/6282213275405" target="_blank" rel="noopener noreferrer">
+                                💬 0822-1327-5405
+                            </a>
+                        </li>
+                        <li>
+                            <span>📍 Pondok Candra, Sidoarjo</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer__bottom">
+                <p>&copy; <span id="footerYear"></span> <strong>Gemage Rekso Joyo</strong>. All rights reserved.</p>
+                <p class="footer__made">Dibuat dengan ❤️ untuk kualitas terbaik</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- ==========================================
+         FLOATING ELEMENTS
+         ========================================== -->
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/6282213275405?text=Halo,%20saya%20tertarik%20dengan%20produk%20Dupa%20Hora." 
+       class="floating-wa" 
+       id="floatingWa" 
+       target="_blank" 
+       rel="noopener noreferrer" 
+       aria-label="Chat WhatsApp">
+        <div class="floating-wa__pulse"></div>
+        <div class="floating-wa__icon">
+            <svg viewBox="0 0 32 32" fill="white" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16.004 0C7.165 0 .003 7.158.001 15.995a15.94 15.94 0 0 0 2.14 7.998L0 32l8.256-2.166a15.96 15.96 0 0 0 7.744 1.97h.007C24.839 31.804 32 24.644 32 15.807 32 7.072 24.84.002 16.004 0Zm0 29.297a13.46 13.46 0 0 1-6.862-1.88l-.492-.293-5.1 1.338 1.36-4.97-.322-.51A13.39 13.39 0 0 1 2.5 15.995C2.502 8.543 8.548 2.5 16.006 2.5 23.34 2.5 29.5 8.543 29.5 15.807c0 7.464-6.16 13.49-13.496 13.49Zm7.4-10.098c-.406-.203-2.4-1.184-2.772-1.32-.371-.134-.642-.203-.912.204-.271.406-1.049 1.32-1.286 1.591-.237.271-.474.305-.88.102-.406-.203-1.713-.631-3.264-2.015-1.207-1.075-2.021-2.403-2.258-2.81-.237-.406-.025-.625.178-.828.183-.183.406-.474.609-.711.203-.237.271-.406.406-.677.136-.271.068-.508-.034-.711-.102-.203-.912-2.2-1.25-3.012-.33-.792-.664-.685-.912-.698l-.777-.013c-.271 0-.711.102-1.083.508-.372.406-1.421 1.388-1.421 3.386 0 1.998 1.455 3.928 1.658 4.199.203.271 2.862 4.368 6.934 6.125.969.418 1.725.668 2.315.855.973.309 1.858.265 2.558.161.78-.116 2.4-.981 2.74-1.929.338-.948.338-1.76.237-1.93-.102-.168-.372-.27-.778-.473Z"/>
+            </svg>
+        </div>
+        <span class="floating-wa__tooltip">Chat Kami</span>
+    </a>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop" aria-label="Kembali ke atas">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+    </button>
+
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
